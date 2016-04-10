@@ -1,5 +1,6 @@
-#include <boost/graph/adjacency_list.hpp>
+#include <iostream>
+#include <boost/version.hpp>
 
 int main() {
-  const boost::adjacency_list<> g;
+  std::cout << BOOST_LIB_VERSION << '\n';
 }
